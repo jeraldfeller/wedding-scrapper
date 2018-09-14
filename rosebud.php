@@ -5,7 +5,8 @@ ini_set('xdebug.var_display_max_data', -1);
 include('header.html');
 require 'simple_html_dom.php';
 $url = 'https://www.weddingwire.com/biz/rosebud-entertainment-aliso-viejo/7e6ac59f384bf188.html#about';
-$html = file_get_html($url, false);
+$htmlData = curlTo($url);
+$html = str_get_html($htmlData['html']);
 
 $header = $html->find('#storefront-header-info', 0);
 $title = $header->find('h1', 0)->plaintext;
@@ -63,6 +64,17 @@ $data = array(
     )
 
 );
+
+function curlTo($url){
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, FALSE);
+    $contents = curl_exec($curl);
+    curl_close($curl);
+    return array('html' => $contents);
+}
 ?>
 <pre>
 <?php var_dump($data) ?>;
