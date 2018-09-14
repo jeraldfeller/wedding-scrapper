@@ -1,4 +1,7 @@
 <?php
+ini_set('xdebug.var_display_max_depth', -1);
+ini_set('xdebug.var_display_max_children', -1);
+ini_set('xdebug.var_display_max_data', -1);
 include('header.html');
 require 'simple_html_dom.php';
 $url = 'https://www.weddingwire.com/biz/rosebud-entertainment-aliso-viejo/7e6ac59f384bf188.html#about';

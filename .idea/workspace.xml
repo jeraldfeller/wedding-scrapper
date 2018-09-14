@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6c48097a-d100-41ce-b9a6-1ea237a6e3d5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aisle.php" afterPath="$PROJECT_DIR$/aisle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/knot.php" afterPath="$PROJECT_DIR$/knot.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rosebud.php" afterPath="$PROJECT_DIR$/rosebud.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wedding-spot.php" afterPath="$PROJECT_DIR$/wedding-spot.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +18,7 @@
       <file leaf-file-name="wedding-spot.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wedding-spot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="1156">
               <caret line="68" column="6" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
               <folding />
             </state>
@@ -38,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rosebud.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rosebud.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rosebud.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+            <state relative-caret-position="51">
+              <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -58,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="knot.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="knot.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-128">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -87,8 +84,8 @@
         <option value="$PROJECT_DIR$/header.html" />
         <option value="$PROJECT_DIR$/wedding-spot.php" />
         <option value="$PROJECT_DIR$/aisle.php" />
-        <option value="$PROJECT_DIR$/rosebud.php" />
         <option value="$PROJECT_DIR$/knot.php" />
+        <option value="$PROJECT_DIR$/rosebud.php" />
       </list>
     </option>
   </component>
@@ -237,12 +234,12 @@
       <workItem from="1536823352814" duration="3474000" />
       <workItem from="1536894507406" duration="881000" />
       <workItem from="1536897699839" duration="5235000" />
-      <workItem from="1536960112712" duration="4149000" />
+      <workItem from="1536960112712" duration="5446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13739000" />
+    <option name="totallyTimeSpent" value="15036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -319,14 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wedding-spot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="68" column="6" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aisle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -335,18 +324,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rosebud.php">
+    <entry file="file://$PROJECT_DIR$/wedding-spot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+        <state relative-caret-position="1156">
+          <caret line="68" column="6" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/knot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rosebud.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
           <folding />
         </state>
       </provider>
