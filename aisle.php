@@ -24,4 +24,7 @@ $data = array(
 
 );
 
-var_dump($data);
+?>
+<pre>
+<?php var_dump($data) ?>;
+</pre>

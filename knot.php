@@ -10,7 +10,7 @@ $url = $_GET['url'];
 echo $url;
 $html = file_get_html($url, false);
 
-
+$json = array();
 $scripts = $html->find('script');
 if(count($scripts) > 0) {
     for ($s = 0; $s < count($scripts); $s++) {
@@ -18,7 +18,6 @@ if(count($scripts) > 0) {
             $scriptInner = $scripts[$s]->innertext;
             $json = json_decode($scriptInner, true);
 
-            var_dump($json);
         }
     }
 }
@@ -35,12 +34,15 @@ if(count($scripts) > 0) {
 //
 
 
-$data = array(
-  'vendor' => trim($vendorName),
-    'details' => trim($details),
-    'address' => trim($address),
-    'telephone' => trim($telephone),
-    'website' => trim($website)
-);
+//$data = array(
+//  'vendor' => trim($vendorName),
+//    'details' => trim($details),
+//    'address' => trim($address),
+//    'telephone' => trim($telephone),
+//    'website' => trim($website)
+//);
 
-var_dump($data);
+?>
+<pre>
+<?php var_dump($json) ?>;
+</pre>

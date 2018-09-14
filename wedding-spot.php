@@ -63,5 +63,7 @@ $data = array(
     'amenities' => $amenities,
     'fees' => $fees
 );
-
-var_dump($data);
+?>
+<pre>
+<?php var_dump($data) ?>;
+</pre>
