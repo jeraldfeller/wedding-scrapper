@@ -1,4 +1,5 @@
 <?php
+include('header.html');
 require 'simple_html_dom.php';
 $url = 'https://www.aisleplanner.com/wedding-services/vendor-listings/theinnatrsf/';
 $html = file_get_html($url, false);

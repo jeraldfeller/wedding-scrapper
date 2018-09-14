@@ -1,4 +1,5 @@
 <?php
+include('header.html');
 require 'simple_html_dom.php';
 $url = 'https://www.weddingwire.com/biz/rosebud-entertainment-aliso-viejo/7e6ac59f384bf188.html#about';
 $html = file_get_html($url, false);
