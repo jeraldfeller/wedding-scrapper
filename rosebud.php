@@ -1,10 +1,13 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
 ini_set('xdebug.var_display_max_depth', -1);
 ini_set('xdebug.var_display_max_children', -1);
 ini_set('xdebug.var_display_max_data', -1);
 include('header.html');
 require 'simple_html_dom.php';
-$url = 'https://www.weddingwire.com/biz/rosebud-entertainment-aliso-viejo/7e6ac59f384bf188.html#about';
+$url = 'https://www.weddingwire.com/biz/redondo-beach-historic-library-redondo-beach/b2e073faa494af3f.html';
 $htmlData = curlTo($url);
 $html = str_get_html($htmlData['html']);
 
@@ -71,6 +74,7 @@ function curlTo($url){
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
     curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
     curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, FALSE);
+    curl_setopt($curl, CURLOPT_HTTPHEADER, array("User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"));
     $contents = curl_exec($curl);
     curl_close($curl);
     return array('html' => $contents);
