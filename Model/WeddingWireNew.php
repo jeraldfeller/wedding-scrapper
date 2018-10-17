@@ -2837,6 +2837,34 @@ class WeddingWireNew
         return $totalItems;
     }
 
+    public function getNextLocation(){
+        $pdo = $this->getPdo();
+        $sql = 'SELECT `id`, `loc` FROM `location` WHERE `status` = 0 LIMIT 1';
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+        $return = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if($return){
+            $sql = 'UPDATE `location` SET `status` = 1 WHERE `id` = '.$return['id'];
+            $stmt = $pdo->prepare($sql);
+            $stmt->execute();
+            $pdo = null;
+            return $return['loc'];
+        }else{
+            $pdo = null;
+            return false;
+        }
+    }
+
+    public function reset(){
+        $pdo = $this->getPdo();
+        $sql = 'UPDATE `location` SET `status` = 0';
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+        $pdo = null;
+        return true;
+    }
+
     public function curlTo($url)
     {
         $curl = curl_init();
