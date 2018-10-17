@@ -9,6 +9,3 @@ define('DB_PWD', '');
 define('DB_NAME','wedding_aggre_db');
 define('DB_HOST','localhost');
 define('DB_DSN','mysql:host=' . DB_HOST . ';dbname=' . DB_NAME);
-set_error_handler(function ($severity, $message, $file, $line) {
-    throw new \ErrorException($message, $severity, $severity, $file, $line);
-});

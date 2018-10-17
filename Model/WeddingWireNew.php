@@ -2738,15 +2738,20 @@ class WeddingWireNew
                     $rehearsalDinnerCateringAvgPricePerPerson[] = 'douevres=' . $questionValue;
                 }
 
+                if (strpos($question, "dinner") !== false) {
+                    $file = fopen("weddingwire-question.txt", "a");
+                    fwrite($file, $question." = ".$questionValue . "\n");
+                    fclose($file);
+                }
 
                 if (strpos($question, "rehearsal") !== false) {
                     $file = fopen("weddingwire-question.txt", "a");
-                    fwrite($file, $question . "\n");
+                    fwrite($file, $question." = ".$questionValue . "\n");
                     fclose($file);
                 }
                 if (strpos($question, "style") !== false) {
                     $file = fopen("weddingwire-question.txt", "a");
-                    fwrite($file, $question . "\n");
+                    fwrite($file, $question." = ".$questionValue . "\n");
                     fclose($file);
                 }
 

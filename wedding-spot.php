@@ -1,69 +1,53 @@
 <?php
-include('header.html');
+require('Model/Init.php');
+require('Model/WeddingSpot.php');
+//include('header.html');
+ini_set('xdebug.var_display_max_depth', -1);
+ini_set('xdebug.var_display_max_children', -1);
+ini_set('xdebug.var_display_max_data', -1);
 require 'simple_html_dom.php';
-$url = 'https://www.wedding-spot.com/venue/12333/Electra-Cruises/';
-$html = file_get_html($url, false);
+$action = getopt("a:")['a'];
+$scraper = new WeddingSpot();
+switch ($action){
+    case 'reg':
+        $location = $scraper->getNextLocation();
+        $urlGeo = 'https://www.wedding-spot.com/wedding-venues/'.$location.'/?page=1';
+        $totalItems = $scraper->getTotalItems($urlGeo);
+        $totalPage = ceil($totalItems / 25);
+        $root = 'https://www.wedding-spot.com';
+        echo $totalItems . " | " . $totalPage . "\n";
+        for ($page = 1; $page <= $totalPage; $page++) {
+            $url = 'https://www.wedding-spot.com/wedding-venues/'.$location.'/?page='.$page;
+            $html = file_get_html($url, false);
+            if ($html) {
+                $container = $html->find('.search-results', 0);
+                if($container){
+                    $links = $container->find('.venue-link');
+                    if($links){
+                        for($l = 0; $l < count($links); $l++){
+                            $urlLink = $root.$links[$l]->getAttribute('href');
+                            echo $l.": ".$urlLink . "\n";
+                            $scraper->registerLink($urlLink);
+                        }
+                    }
+                }
 
-$titleContainer = $html->find('#venue-details-images', 0);
-$detailsContainer = $html->find('#venue-sidebar-affix', 0);
-if($titleContainer){
-    $title = $titleContainer->find('h1', 0)->plaintext;
-}else{
-    $title = '';
-}
-
-if($detailsContainer){
-    $vendorAddressContainer = $detailsContainer->find('#vendor-address', 0);
-    if($vendorAddressContainer){
-        $spans = $vendorAddressContainer->find('span');
-        $contactNumber = $vendorAddressContainer->find('#show-phone-number', 0)->plaintext;
-        for($x = 0; $x < count($spans); $x++){
-            $s = $spans[$x];
-            if($s->getAttribute('itemprop') == 'streetAddress'){
-                $address = $s->plaintext;
-            }else if($s->getAttribute('itemprop') == 'addressLocality'){
-                $locale = $s->plaintext;
-            }else if($s->getAttribute('itemprop') == 'addressRegion'){
-                $region = $s->plaintext;
-            }else if($s->getAttribute('itemprop') == 'postalCode'){
-                $zip = $s->plaintext;
             }
         }
-    }
-
-    $amenities = array();
-    $amenitiesItem = $html->find('.amenity-item');
-    for($a = 0; $a < count($amenitiesItem); $a++){
-        $amenities[] = trim($amenitiesItem[$a]->plaintext);
-    }
-
-    $overview = $html->find('#overview', 0);
-    $h4 = $overview->find('h4');
-    $p = $overview->find('p');
-
-    for($h = 0; $h < count($h4); $h++){
-        $h4Title = trim($h4[$h]->plaintext);
-        if($h4Title == 'Rental Fees'){
-           $rentalFees = $p[$h]->plaintext;
-        }else if($h4Title == 'Wedding Cost'){
-            $wedingCost = $p[$h]->plaintext;
+        break;
+    case 'scrape':
+        $links = $scraper->getLinks();
+        foreach($links as $row){
+            $html = file_get_html($row['url'], false);
+            if($html){
+                $scraper->scrapeVenue($html);
+            }
         }
-    }
-
-    $fees = array('rental_fees' => trim($rentalFees), 'wedding_cost' => trim($wedingCost));
+        break;
 }
 
-$data = array(
-  'title' => trim($title),
-    'address' => trim($address),
-    'locale' => trim($locale),
-    'region' => trim($region),
-    'zip' => trim($zip),
-    'phone_number' => trim($contactNumber),
-    'amenities' => $amenities,
-    'fees' => $fees
-);
+
+
+
+
 ?>
-<pre>
-<?php var_dump($data) ?>;
-</pre>

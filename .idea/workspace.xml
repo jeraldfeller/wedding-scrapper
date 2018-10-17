@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c48097a-d100-41ce-b9a6-1ea237a6e3d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reset-wire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/WeddingSpot.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Init.php" afterPath="$PROJECT_DIR$/Model/Init.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/WeddingWireNew.php" afterPath="$PROJECT_DIR$/Model/WeddingWireNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql_error_weddingwire.txt" afterPath="$PROJECT_DIR$/mysql_error_weddingwire.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weddingwire-new.php" afterPath="$PROJECT_DIR$/weddingwire-new.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wedding-spot.php" afterPath="$PROJECT_DIR$/wedding-spot.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,17 +31,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeddingWireNew.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeddingWireNew.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/WeddingWireNew.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="2860" column="52" lean-forward="false" selection-start-line="2860" selection-start-column="52" selection-end-line="2860" selection-end-column="52" />
+            <state relative-caret-position="335">
+              <caret line="2821" column="5" lean-forward="true" selection-start-line="2795" selection-start-column="4" selection-end-line="2821" selection-end-column="5" />
               <folding>
-                <marker date="1539801540694" expanded="true" signature="119205:119298" ph="SELECT count... ${$table}" />
-                <marker date="1539801540694" expanded="true" signature="119496:119521" ph="INSERT INTO `${$table}`... " />
-                <marker date="1539801540694" expanded="true" signature="120749:120810" ph="SELECT `id`,... location" />
-                <marker date="1539801540694" expanded="true" signature="120968:121016" ph="UPDATE `loca... " />
-                <marker date="1539801540694" expanded="true" signature="121324:121358" ph="UPDATE `loca... " />
+                <marker date="1539801816845" expanded="true" signature="119503:119596" ph="SELECT count... ${$table}" />
+                <marker date="1539801816845" expanded="true" signature="119794:119819" ph="INSERT INTO `${$table}`... " />
+                <marker date="1539801816845" expanded="true" signature="121047:121108" ph="SELECT `id`,... location" />
+                <marker date="1539801816845" expanded="true" signature="121266:121314" ph="UPDATE `loca... " />
+                <marker date="1539801816845" expanded="true" signature="121622:121656" ph="UPDATE `loca... " />
               </folding>
             </state>
           </provider>
@@ -50,8 +50,18 @@
       <file leaf-file-name="weddingwire-new.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weddingwire-new.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Init.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/Init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,9 +80,39 @@
       <file leaf-file-name="wedding-spot.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wedding-spot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="357">
+              <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeddingSpot.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Model/WeddingSpot.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-351">
+              <caret line="103" column="30" lean-forward="false" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+              <folding>
+                <marker date="1539814098060" expanded="true" signature="710:750" ph="INSERT INTO `location_spo`... " />
+                <marker date="1539814098060" expanded="true" signature="710:765" ph="INSERT INTO `location_spo`... " />
+                <marker date="1539814098060" expanded="true" signature="930:958" ph="SELECT `loc`... location" />
+                <marker date="1539814098060" expanded="true" signature="1353:1408" ph="INSERT INTO `location_spot`... " />
+                <marker date="1539814098060" expanded="true" signature="10307:10408" ph="SELECT count... ${$table}" />
+                <marker date="1539814098060" expanded="true" signature="10606:10631" ph="INSERT INTO `${$table}`... " />
+                <marker date="1539814098060" expanded="true" signature="11052:11059" ph="SELECT `id`,... location_spot" />
+                <marker date="1539814098060" expanded="true" signature="11052:11113" ph="SELECT `id`,... spot_link" />
+                <marker date="1539814098060" expanded="true" signature="11052:11114" ph="SELECT `id`,... spot_link" />
+                <marker date="1539814098060" expanded="true" signature="11283:11331" ph="UPDATE `spot... " />
+                <marker date="1539814098060" expanded="true" signature="11283:11332" ph="UPDATE `spot... " />
+                <marker date="1539814098060" expanded="true" signature="11283:11449" ph="UPDATE `spot... " />
+                <marker date="1539814098060" expanded="true" signature="11583:11595" ph="INSERT INTO `id`... " />
+                <marker date="1539814098060" expanded="true" signature="11583:11620" ph="INSERT INTO `spot_links`... " />
+                <marker date="1539814098060" expanded="true" signature="11583:11629" ph="INSERT INTO `spot_link`... " />
+                <marker date="1539814098060" expanded="true" signature="11583:11667" ph="INSERT INTO `spot_links`... " />
+                <marker date="1539814098060" expanded="true" signature="11594:11595" ph="SELECT `id`,... location_spot" />
+                <marker date="1539814098060" expanded="true" signature="12141:12207" ph="SELECT `id`,... location_spot" />
+                <marker date="1539814098060" expanded="true" signature="12365:12418" ph="UPDATE `loca... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,12 +127,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weddingwire.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weddingwire.php">
+      <file leaf-file-name="Scraper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/Scraper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="357">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <marker date="1539285480484" expanded="true" signature="5552:5589" ph="SELECT count... " />
+                <marker date="1539285480484" expanded="true" signature="5552:5618" ph="SELECT count... ${$table}" />
+                <marker date="1539285480484" expanded="true" signature="5552:5623" ph="SELECT count... ${$table}" />
+                <marker date="1539285480484" expanded="true" signature="5552:5628" ph="SELECT count... ${$table}" />
+                <marker date="1539285480484" expanded="true" signature="5552:5645" ph="SELECT count... ${$table}" />
+                <marker date="1539285480484" expanded="true" signature="5552:6158" ph="SELECT count... ${$table}" />
+                <marker date="1539285480484" expanded="true" signature="5842:5867" ph="INSERT INTO `${$table}`... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,34 +151,6 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weddingwire-question.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weddingwire-question.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scraper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/Scraper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13158">
-              <caret line="774" column="0" lean-forward="false" selection-start-line="774" selection-start-column="0" selection-end-line="774" selection-end-column="0" />
-              <folding>
-                <marker date="1539285480484" expanded="true" signature="5552:5589" ph="SELECT count... " />
-                <marker date="1539285480484" expanded="true" signature="5552:5618" ph="SELECT count... ${$table}" />
-                <marker date="1539285480484" expanded="true" signature="5552:5623" ph="SELECT count... ${$table}" />
-                <marker date="1539285480484" expanded="true" signature="5552:5628" ph="SELECT count... ${$table}" />
-                <marker date="1539285480484" expanded="true" signature="5552:5645" ph="SELECT count... ${$table}" />
-                <marker date="1539285480484" expanded="true" signature="5552:6158" ph="SELECT count... ${$table}" />
-                <marker date="1539285480484" expanded="true" signature="5842:5867" ph="INSERT INTO `${$table}`... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -177,11 +197,9 @@
         <option value="$PROJECT_DIR$/yellow.php" />
         <option value="$PROJECT_DIR$/auto.php" />
         <option value="$PROJECT_DIR$/rosebud.php" />
-        <option value="$PROJECT_DIR$/wedding-spot.php" />
         <option value="$PROJECT_DIR$/cars.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/test.txt" />
-        <option value="$PROJECT_DIR$/Model/Init.php" />
         <option value="$PROJECT_DIR$/vide.txt" />
         <option value="$PROJECT_DIR$/theknot-test.php" />
         <option value="$PROJECT_DIR$/Model/Scraper.php" />
@@ -198,6 +216,9 @@
         <option value="$PROJECT_DIR$/weddingwire-question.txt" />
         <option value="$PROJECT_DIR$/reset-wire.php" />
         <option value="$PROJECT_DIR$/Model/WeddingWireNew.php" />
+        <option value="$PROJECT_DIR$/Model/Init.php" />
+        <option value="$PROJECT_DIR$/wedding-spot.php" />
+        <option value="$PROJECT_DIR$/Model/WeddingSpot.php" />
       </list>
     </option>
   </component>
@@ -239,6 +260,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scrapers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrapers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrapers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,12 +395,12 @@
       <workItem from="1539639558860" duration="10091000" />
       <workItem from="1539649720176" duration="7715000" />
       <workItem from="1539726743317" duration="27133000" />
-      <workItem from="1539796033321" duration="3356000" />
+      <workItem from="1539796033321" duration="13367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150683000" />
+    <option name="totallyTimeSpent" value="160694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -424,14 +459,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="80" lean-forward="false" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wedding-spot.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -682,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vide.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -734,22 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Scraper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13158">
-          <caret line="774" column="0" lean-forward="false" selection-start-line="774" selection-start-column="0" selection-end-line="774" selection-end-column="0" />
-          <folding>
-            <marker date="1539285480484" expanded="true" signature="5552:5589" ph="SELECT count... " />
-            <marker date="1539285480484" expanded="true" signature="5552:5618" ph="SELECT count... ${$table}" />
-            <marker date="1539285480484" expanded="true" signature="5552:5623" ph="SELECT count... ${$table}" />
-            <marker date="1539285480484" expanded="true" signature="5552:5628" ph="SELECT count... ${$table}" />
-            <marker date="1539285480484" expanded="true" signature="5552:5645" ph="SELECT count... ${$table}" />
-            <marker date="1539285480484" expanded="true" signature="5552:6158" ph="SELECT count... ${$table}" />
-            <marker date="1539285480484" expanded="true" signature="5842:5867" ph="INSERT INTO `${$table}`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weddingwire.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -759,22 +763,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql_error.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wedding-spot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weddingwire-fields.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -798,14 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weddingwire-new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reset-wire.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -825,16 +805,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weddingwire-fields.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Scraper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1539285480484" expanded="true" signature="5552:5589" ph="SELECT count... " />
+            <marker date="1539285480484" expanded="true" signature="5552:5618" ph="SELECT count... ${$table}" />
+            <marker date="1539285480484" expanded="true" signature="5552:5623" ph="SELECT count... ${$table}" />
+            <marker date="1539285480484" expanded="true" signature="5552:5628" ph="SELECT count... ${$table}" />
+            <marker date="1539285480484" expanded="true" signature="5552:5645" ph="SELECT count... ${$table}" />
+            <marker date="1539285480484" expanded="true" signature="5552:6158" ph="SELECT count... ${$table}" />
+            <marker date="1539285480484" expanded="true" signature="5842:5867" ph="INSERT INTO `${$table}`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weddingwire-new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wedding-spot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Model/WeddingWireNew.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="2860" column="52" lean-forward="false" selection-start-line="2860" selection-start-column="52" selection-end-line="2860" selection-end-column="52" />
+        <state relative-caret-position="335">
+          <caret line="2821" column="5" lean-forward="true" selection-start-line="2795" selection-start-column="4" selection-end-line="2821" selection-end-column="5" />
           <folding>
-            <marker date="1539801540694" expanded="true" signature="119205:119298" ph="SELECT count... ${$table}" />
-            <marker date="1539801540694" expanded="true" signature="119496:119521" ph="INSERT INTO `${$table}`... " />
-            <marker date="1539801540694" expanded="true" signature="120749:120810" ph="SELECT `id`,... location" />
-            <marker date="1539801540694" expanded="true" signature="120968:121016" ph="UPDATE `loca... " />
-            <marker date="1539801540694" expanded="true" signature="121324:121358" ph="UPDATE `loca... " />
+            <marker date="1539801816845" expanded="true" signature="119503:119596" ph="SELECT count... ${$table}" />
+            <marker date="1539801816845" expanded="true" signature="119794:119819" ph="INSERT INTO `${$table}`... " />
+            <marker date="1539801816845" expanded="true" signature="121047:121108" ph="SELECT `id`,... location" />
+            <marker date="1539801816845" expanded="true" signature="121266:121314" ph="UPDATE `loca... " />
+            <marker date="1539801816845" expanded="true" signature="121622:121656" ph="UPDATE `loca... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/WeddingSpot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="103" column="30" lean-forward="false" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+          <folding>
+            <marker date="1539814098060" expanded="true" signature="710:750" ph="INSERT INTO `location_spo`... " />
+            <marker date="1539814098060" expanded="true" signature="710:765" ph="INSERT INTO `location_spo`... " />
+            <marker date="1539814098060" expanded="true" signature="930:958" ph="SELECT `loc`... location" />
+            <marker date="1539814098060" expanded="true" signature="1353:1408" ph="INSERT INTO `location_spot`... " />
+            <marker date="1539814098060" expanded="true" signature="10307:10408" ph="SELECT count... ${$table}" />
+            <marker date="1539814098060" expanded="true" signature="10606:10631" ph="INSERT INTO `${$table}`... " />
+            <marker date="1539814098060" expanded="true" signature="11052:11059" ph="SELECT `id`,... location_spot" />
+            <marker date="1539814098060" expanded="true" signature="11052:11113" ph="SELECT `id`,... spot_link" />
+            <marker date="1539814098060" expanded="true" signature="11052:11114" ph="SELECT `id`,... spot_link" />
+            <marker date="1539814098060" expanded="true" signature="11283:11331" ph="UPDATE `spot... " />
+            <marker date="1539814098060" expanded="true" signature="11283:11332" ph="UPDATE `spot... " />
+            <marker date="1539814098060" expanded="true" signature="11283:11449" ph="UPDATE `spot... " />
+            <marker date="1539814098060" expanded="true" signature="11583:11595" ph="INSERT INTO `id`... " />
+            <marker date="1539814098060" expanded="true" signature="11583:11620" ph="INSERT INTO `spot_links`... " />
+            <marker date="1539814098060" expanded="true" signature="11583:11629" ph="INSERT INTO `spot_link`... " />
+            <marker date="1539814098060" expanded="true" signature="11583:11667" ph="INSERT INTO `spot_links`... " />
+            <marker date="1539814098060" expanded="true" signature="11594:11595" ph="SELECT `id`,... location_spot" />
+            <marker date="1539814098060" expanded="true" signature="12141:12207" ph="SELECT `id`,... location_spot" />
+            <marker date="1539814098060" expanded="true" signature="12365:12418" ph="UPDATE `loca... " />
           </folding>
         </state>
       </provider>
