@@ -4,3 +4,5 @@ require('Model/WeddingWireNew.php');
 $scraper = new WeddingWireNew();
 
 $scraper->reset();
+?>
+

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c48097a-d100-41ce-b9a6-1ea237a6e3d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/WeddingSpot.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weddingwire-auto.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wire-auto.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Init.php" afterPath="$PROJECT_DIR$/Model/Init.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/WeddingWireNew.php" afterPath="$PROJECT_DIR$/Model/WeddingWireNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wedding-spot.php" afterPath="$PROJECT_DIR$/wedding-spot.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reset-wire.php" afterPath="$PROJECT_DIR$/reset-wire.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,30 +18,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WeddingWire.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/WeddingWire.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="552" column="0" lean-forward="false" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
-              <folding>
-                <marker date="1539641543878" expanded="true" signature="20526:20627" ph="SELECT count... ${$table}" />
-                <marker date="1539641543878" expanded="true" signature="20824:20849" ph="INSERT INTO `${$table}`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WeddingWireNew.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/WeddingWireNew.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="2821" column="5" lean-forward="true" selection-start-line="2795" selection-start-column="4" selection-end-line="2821" selection-end-column="5" />
+            <state relative-caret-position="192">
+              <caret line="2879" column="20" lean-forward="false" selection-start-line="2879" selection-start-column="20" selection-end-line="2879" selection-end-column="20" />
               <folding>
-                <marker date="1539801816845" expanded="true" signature="119503:119596" ph="SELECT count... ${$table}" />
-                <marker date="1539801816845" expanded="true" signature="119794:119819" ph="INSERT INTO `${$table}`... " />
-                <marker date="1539801816845" expanded="true" signature="121047:121108" ph="SELECT `id`,... location" />
-                <marker date="1539801816845" expanded="true" signature="121266:121314" ph="UPDATE `loca... " />
-                <marker date="1539801816845" expanded="true" signature="121622:121656" ph="UPDATE `loca... " />
+                <marker date="1539865658060" expanded="true" signature="119503:119596" ph="SELECT count... ${$table}" />
+                <marker date="1539865658060" expanded="true" signature="119794:119819" ph="INSERT INTO `${$table}`... " />
+                <marker date="1539865658060" expanded="true" signature="121047:121108" ph="SELECT `id`,... location" />
+                <marker date="1539865658060" expanded="true" signature="121266:121314" ph="UPDATE `loca... " />
+                <marker date="1539865658060" expanded="true" signature="121641:121699" ph="SELECT `id`,... location" />
+                <marker date="1539865658060" expanded="true" signature="121965:122005" ph="UPDATE `wire... " />
+                <marker date="1539865658060" expanded="true" signature="121965:122023" ph="UPDATE `wire... " />
+                <marker date="1539865658060" expanded="true" signature="121965:122029" ph="UPDATE `wire... " />
+                <marker date="1539865658060" expanded="true" signature="122252:122286" ph="UPDATE `loca... " />
               </folding>
             </state>
           </provider>
@@ -50,8 +41,28 @@
       <file leaf-file-name="weddingwire-new.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weddingwire-new.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="366">
+              <caret line="115" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weddingwire-auto.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weddingwire-auto.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-963">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wire-auto.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wire-auto.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -70,8 +81,8 @@
       <file leaf-file-name="reset-wire.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reset-wire.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="51">
+              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -80,18 +91,18 @@
       <file leaf-file-name="wedding-spot.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wedding-spot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+            <state relative-caret-position="459">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeddingSpot.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeddingSpot.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/WeddingSpot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="103" column="30" lean-forward="false" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+            <state relative-caret-position="194">
+              <caret line="297" column="20" lean-forward="false" selection-start-line="297" selection-start-column="20" selection-end-line="297" selection-end-column="20" />
               <folding>
                 <marker date="1539814098060" expanded="true" signature="710:750" ph="INSERT INTO `location_spo`... " />
                 <marker date="1539814098060" expanded="true" signature="710:765" ph="INSERT INTO `location_spo`... " />
@@ -113,16 +124,6 @@
                 <marker date="1539814098060" expanded="true" signature="12141:12207" ph="SELECT `id`,... location_spot" />
                 <marker date="1539814098060" expanded="true" signature="12365:12418" ph="UPDATE `loca... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql_error_weddingwire.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql_error_weddingwire.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="72" column="1512" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="1512" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -182,6 +183,8 @@
       <find>Venue</find>
       <find>venue</find>
       <find>fwrite</find>
+      <find>getNextLocation</find>
+      <find>g</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,11 +217,13 @@
         <option value="$PROJECT_DIR$/weddingwire-fields.txt" />
         <option value="$PROJECT_DIR$/weddingwire-new.php" />
         <option value="$PROJECT_DIR$/weddingwire-question.txt" />
-        <option value="$PROJECT_DIR$/reset-wire.php" />
-        <option value="$PROJECT_DIR$/Model/WeddingWireNew.php" />
         <option value="$PROJECT_DIR$/Model/Init.php" />
         <option value="$PROJECT_DIR$/wedding-spot.php" />
         <option value="$PROJECT_DIR$/Model/WeddingSpot.php" />
+        <option value="$PROJECT_DIR$/reset-wire.php" />
+        <option value="$PROJECT_DIR$/Model/WeddingWireNew.php" />
+        <option value="$PROJECT_DIR$/weddingwire-auto.php" />
+        <option value="$PROJECT_DIR$/wire-auto.sh" />
       </list>
     </option>
   </component>
@@ -395,12 +400,12 @@
       <workItem from="1539639558860" duration="10091000" />
       <workItem from="1539649720176" duration="7715000" />
       <workItem from="1539726743317" duration="27133000" />
-      <workItem from="1539796033321" duration="13367000" />
+      <workItem from="1539796033321" duration="20840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160694000" />
+    <option name="totallyTimeSpent" value="168167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -432,18 +437,18 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46456692" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17862372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18081991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,22 +464,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wedding-spot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rosebud.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -786,14 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reset-wire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/WeddingWire.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -837,40 +818,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weddingwire-new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wedding-spot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        <state relative-caret-position="459">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/WeddingWireNew.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="2821" column="5" lean-forward="true" selection-start-line="2795" selection-start-column="4" selection-end-line="2821" selection-end-column="5" />
-          <folding>
-            <marker date="1539801816845" expanded="true" signature="119503:119596" ph="SELECT count... ${$table}" />
-            <marker date="1539801816845" expanded="true" signature="119794:119819" ph="INSERT INTO `${$table}`... " />
-            <marker date="1539801816845" expanded="true" signature="121047:121108" ph="SELECT `id`,... location" />
-            <marker date="1539801816845" expanded="true" signature="121266:121314" ph="UPDATE `loca... " />
-            <marker date="1539801816845" expanded="true" signature="121622:121656" ph="UPDATE `loca... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/WeddingSpot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="103" column="30" lean-forward="false" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+        <state relative-caret-position="194">
+          <caret line="297" column="20" lean-forward="false" selection-start-line="297" selection-start-column="20" selection-end-line="297" selection-end-column="20" />
           <folding>
             <marker date="1539814098060" expanded="true" signature="710:750" ph="INSERT INTO `location_spo`... " />
             <marker date="1539814098060" expanded="true" signature="710:765" ph="INSERT INTO `location_spo`... " />
@@ -892,6 +851,56 @@
             <marker date="1539814098060" expanded="true" signature="12141:12207" ph="SELECT `id`,... location_spot" />
             <marker date="1539814098060" expanded="true" signature="12365:12418" ph="UPDATE `loca... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reset-wire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weddingwire-new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="115" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/WeddingWireNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="2879" column="20" lean-forward="false" selection-start-line="2879" selection-start-column="20" selection-end-line="2879" selection-end-column="20" />
+          <folding>
+            <marker date="1539865658060" expanded="true" signature="119503:119596" ph="SELECT count... ${$table}" />
+            <marker date="1539865658060" expanded="true" signature="119794:119819" ph="INSERT INTO `${$table}`... " />
+            <marker date="1539865658060" expanded="true" signature="121047:121108" ph="SELECT `id`,... location" />
+            <marker date="1539865658060" expanded="true" signature="121266:121314" ph="UPDATE `loca... " />
+            <marker date="1539865658060" expanded="true" signature="121641:121699" ph="SELECT `id`,... location" />
+            <marker date="1539865658060" expanded="true" signature="121965:122005" ph="UPDATE `wire... " />
+            <marker date="1539865658060" expanded="true" signature="121965:122023" ph="UPDATE `wire... " />
+            <marker date="1539865658060" expanded="true" signature="121965:122029" ph="UPDATE `wire... " />
+            <marker date="1539865658060" expanded="true" signature="122252:122286" ph="UPDATE `loca... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weddingwire-auto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-963">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wire-auto.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>

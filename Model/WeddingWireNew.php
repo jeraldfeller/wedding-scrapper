@@ -2854,11 +2854,32 @@ class WeddingWireNew
             $stmt = $pdo->prepare($sql);
             $stmt->execute();
             $pdo = null;
-            return $return['loc'];
+            return trim($return['loc']);
         }else{
             $pdo = null;
             return false;
         }
+    }
+
+    public function getCurrentCategory(){
+        $pdo = $this->getPdo();
+        $sql = 'SELECT * FROM `wire_categories` WHERE `status` = 0 LIMIT 1';
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+        $return = $stmt->fetch(PDO::FETCH_ASSOC);
+        $pdo = null;
+
+        return $return;
+    }
+
+    public function proceedNextCategory($catId){
+        $pdo = $this->getPdo();
+        $sql = 'UPDATE `wire_categories` SET `status` = 1 WHERE `category_id` = '.$catId;
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+        $pdo = null;
+        $this->reset();
+        return true;
     }
 
     public function reset(){
